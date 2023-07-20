@@ -1,10 +1,11 @@
+import React from "react";
 import "./Main.css"
 import HornedBeasts from "../HornedBeasts/HornedBeasts"
 
-export default function Main({data, handleModal}) {
+export default function Main({beastData, handleModal}) {
 return (
     <div className="hbMain">
-        {data.map((beast, key)=>{
+        {beastData.map((beast, key)=>{
             return(
                 <HornedBeasts
                 key={beast._id}

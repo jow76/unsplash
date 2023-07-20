@@ -1,6 +1,7 @@
 import "./HornedBeasts.css"
 
 export default function HornedBeasts(props) {
+
 return (
     <div className="hbDiv">
         <h2>{props.title}</h2>
