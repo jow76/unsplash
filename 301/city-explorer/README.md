@@ -1,7 +1,7 @@
 # City Explorer
 
 **Author**: Joe Jardine
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.1 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 This project aims to take a written prompt from a user and use the LocationIQ API to relate the prompt to a real-world location and display a map of that location.
