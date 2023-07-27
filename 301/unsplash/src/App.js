@@ -9,7 +9,7 @@ function App() {
   const [img, setImg] = useState("")
 
   function handleSearch(event){
-    setsearchQuery(event.target.value)
+    setSearchQuery(event.target.value)
   }
 
   async function getImage(){
