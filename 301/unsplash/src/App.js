@@ -5,7 +5,7 @@ import axios from "axios"
 
 function App() {
 
-  const [searchQuery, setsearchQuery] = useState("")
+  const [searchQuery, setSearchQuery] = useState("")
   const [img, setImg] = useState("")
 
   function handleSearch(event){
